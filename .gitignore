@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Generated outputs
+output/submission.csv
+output/filled_dataset.csv
+
+# Environment
+.env
+.venv
+venv/
