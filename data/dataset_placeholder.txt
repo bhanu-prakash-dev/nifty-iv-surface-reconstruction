@@ -1,0 +1,7 @@
+Dataset not included in this repository.
+
+The dataset was provided as part of the NIFTY IV Surface Reconstruction Challenge.
+
+Please obtain the dataset from the competition organizers and place it in:
+
+data/dataset.csv
