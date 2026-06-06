@@ -14,9 +14,9 @@ The challenge was evaluated using Mean Squared Error (MSE), with the final ranki
 
 Implied volatility smiles are more naturally represented using log-moneyness:
 
-\[
-k = log(K/S)
-\]
+```text
+k = log(K / S)
+```
 
 where:
 
@@ -38,13 +38,11 @@ For each timestamp:
 3. Predict missing IV values.
 4. Ensemble predictions:
 
-\[
-IV_{pred}
-=
-0.5 \cdot IV_{PCHIP}
-+
-0.5 \cdot IV_{CubicSpline}
-\]
+```text
+IV_pred =
+0.5 × IV_PCHIP +
+0.5 × IV_CubicSpline
+```
 
 ---
 
