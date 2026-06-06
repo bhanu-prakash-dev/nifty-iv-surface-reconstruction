@@ -19,6 +19,3 @@ output/filled_dataset.csv
 .env
 .venv
 venv/
-
-# Competition dataset
-data/dataset.csv
